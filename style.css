@@ -1,7 +1,8 @@
 .title-text{
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: aqua;
+  color: rgb(0, 204, 255);
+  text-shadow: 1px 1px rgb(0, 147, 184);
   
 }
 body{
