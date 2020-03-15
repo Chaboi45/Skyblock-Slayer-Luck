@@ -6,7 +6,7 @@ var e=0;
 var rng=0;
 function getLoot(){
   let rate=Math.random()*100
-  if (rate<0.5){
+  if (rate<0.053846){
     document.getElementById("result").innerHTML="Got Pray RNGesus Drop! How.........";
     money_spent+=50000;
     document.getElementById("money-spent").innerHTML="Money Spent: "+money_spent;
@@ -14,7 +14,7 @@ function getLoot(){
     document.getElementById("rng").innerHTML="Pray RNGesus Drop(s): "+rng;
     
   }
-  if (rate<1 && rate>0.5){
+  if (rate<1 && rate>0.053846){
     document.getElementById("result").innerHTML="Got Extraordinary Drop! Wow!";
     money_spent+=50000;
     document.getElementById("money-spent").innerHTML="Money Spent: "+money_spent;
